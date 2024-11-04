@@ -1,5 +1,10 @@
-!# /bin/bash
-
-ls 
-touch example.txt
-ls
+pipeline {
+    agent any
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Hello, World!'
+            }
+        }
+    }
+}
