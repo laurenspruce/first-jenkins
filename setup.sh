@@ -1,10 +1,2 @@
-pipeline {
-    agent any
-    stages {
-        stage('Build') {
-            steps {
-                echo 'Hello, World!'
-            }
-        }
-    }
-}
+#! /usr/bin/bash
+echo "Hello World"
